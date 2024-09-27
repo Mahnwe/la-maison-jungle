@@ -1,9 +1,9 @@
 {
   "name": "la-maison-jungle",
-  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "commentaire": "'npm run' pour accéder aux commandes 'scripts'",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

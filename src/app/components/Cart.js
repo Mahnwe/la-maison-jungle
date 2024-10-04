@@ -1,3 +1,5 @@
+import '../components-style/Cart.css'
+
 const monsteraPrice = 8
 const ivyPrice = 10
 const flowerPrice = 15

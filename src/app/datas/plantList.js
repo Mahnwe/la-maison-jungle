@@ -14,7 +14,7 @@ export const plantList = [
 		id: '2ab',
 		light: 3,
 		water: 1,
-		cover: "assets/monstera.jpg"
+		cover: "assets/ficusLyrata.jpeg"
 	},
 	{
 		name: 'pothos argenté',
@@ -22,7 +22,7 @@ export const plantList = [
 		id: '3sd',
 		light: 1,
 		water: 2,
-		cover: "assets/monstera.jpg"
+		cover: "assets/pothosArgenté.jpg"
 	},
 	{
 		name: 'yucca',
@@ -30,7 +30,7 @@ export const plantList = [
 		id: '4kk',
 		light: 3,
 		water: 1,
-		cover: "assets/monstera.jpg"
+		cover: "assets/Yucca.jpg"
 	},
 	{
 		name: 'olivier',
@@ -38,7 +38,7 @@ export const plantList = [
 		id: '5pl',
 		light: 3,
 		water: 1,
-		cover: "assets/monstera.jpg"
+		cover: "assets/olivier.jpg"
 	},
 	{
 		name: 'géranium',
@@ -46,16 +46,16 @@ export const plantList = [
 		id: '6uo',
 		light: 2,
 		water: 2,
-		cover: "assets/monstera.jpg"
+		cover: "assets/geranium.jpg"
 	},
 	{
-		name: 'basilique',
+		name: 'basilic',
 		category: 'extérieur',
 		id: '7ie',
 		isBestSale: true,
 		light: 2,
 		water: 3,
-		cover: "assets/monstera.jpg"
+		cover: "assets/basilic.jpg"
 	},
 	{
 		name: 'aloe',
@@ -63,7 +63,7 @@ export const plantList = [
 		id: '8fp',
 		light: 2,
 		water: 1,
-		cover: "assets/monstera.jpg"
+		cover: "assets/aloe.png"
 	},
 	{
 		name: 'succulente',
@@ -71,6 +71,6 @@ export const plantList = [
 		id: '9vn',
 		light: 2,
 		water: 1,
-		cover: "assets/monstera.jpg"
+		cover: "assets/succulente.jpg"
 	}
 ]

@@ -1,0 +1,8 @@
+.lmj-plant-price {
+    position: relative;
+    bottom: 30px;
+    padding: 5px;
+    font-weight: 600;
+	background-color: #31b572;
+    border-radius: 5px;
+}

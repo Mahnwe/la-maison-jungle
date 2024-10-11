@@ -1,13 +1,15 @@
 'use client'
 
 import CareScale from "./CareScale";
+import Price from './Price'
 import '../components-style/PlantItem.css'
 
-function PlantItem({id, cover, name, water, light}) 
+function PlantItem({id, cover, name, water, light, price}) 
 {
     return (
             <li key={id} className="lmj-plant-item" onClick={() => handleClick(name)}>
                 <img className='lmj-plant-item-cover' src={cover} alt={`${name} cover`} />
+                <Price price={price}/>
 			    {name}
                 <div onClick = { () => clickOnWaterCare(water)}>
                     <CareScale careType='water' scaleValue={water} />

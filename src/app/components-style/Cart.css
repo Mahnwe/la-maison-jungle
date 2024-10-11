@@ -2,4 +2,56 @@
 	color: white;
 	background-color: #31b572;
 	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+}
+
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+	background-color: #31b572;
+	border-style: solid;
+	border-color: black;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 10px;
+	color: black;
+}
+
+.lmj-cart-closed {
+	padding: 32px;
+	width: 200px;
+}
+
+.lmj-cart-closed > button {
+	color: black;
+}
+
+.lmj-cart-empty {
+	margin-top: 30px;
+}
+
+.lmj-cart-clear {
+	padding: 10px;
+	margin-top: 30px;
+	font-weight: 600;
+	background-color: #31b572;
+	border-style: solid;
+	border-color: black;
+}
+
+.lmj-cart-title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.lmj-cart-total {
+	margin-top: 30px;
+	margin-left: 50px;
 }

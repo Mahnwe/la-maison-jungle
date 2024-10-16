@@ -10,12 +10,14 @@ function PlantItem({id, cover, name, water, light, price})
             <li key={id} className="lmj-plant-item" onClick={() => handleClick(name)}>
                 <img className='lmj-plant-item-cover' src={cover} alt={`${name} cover`} />
                 <Price price={price}/>
+                <div className="plant-item-info">
 			    {name}
                 <div onClick = { () => clickOnWaterCare(water)}>
                     <CareScale careType='water' scaleValue={water} />
                 </div>
                 <div onClick = { () => clickOnLightCare(light)}>
                     <CareScale careType='light' scaleValue={light} />
+                </div>
                 </div>
             </li>
         )

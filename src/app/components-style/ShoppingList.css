@@ -11,8 +11,11 @@
 }
 
 .lmj-add-button {
+	position: relative;
+	bottom : 10px;
 	padding: 5px;
-	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-left: 30%;
 	font-weight: 600;
 	background-color: #31b572;
 	border-style: solid;

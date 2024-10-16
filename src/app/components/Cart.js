@@ -55,9 +55,7 @@ function deleteInCart(amount, index, name, price)
 						{cart.map(({ name, price, amount }, index) => (
 							<div key={`${name}-${index}`}>
 								{name} {price}€ x {amount} 
-								<button className='lmj-delete-button' width={16} height={16} onClick={() => deleteInCart(amount, index, name, price)}>
-								<img src="assets/remove.png" alt='supprimer' width={16} height={16}/>
-								</button>
+								<img className='lmj-delete-button' src="assets/remove.png" alt='supprimer' width={16} height={16} onClick={() => deleteInCart(amount, index, name, price)}/>
 							</div>
 						))}
 					</ul>
